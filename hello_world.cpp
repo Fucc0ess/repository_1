@@ -1,9 +1,8 @@
 #include <iostream>
-using namespace std;
 int main(){
-   string name;
-   cout<<"Введите ваше имя";
-   cin>>name;
-   cout<<"Hello world"<<name<<endl;
+   std::string name;
+   std::cout<<"Введите ваше имя";
+   std::cin>>name;
+   std::cout<<"Hello world"<<name<<endl;
    return 0;
 }
