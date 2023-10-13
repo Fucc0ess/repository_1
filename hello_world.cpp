@@ -1,8 +1,8 @@
 include <iostream>
 int main(){
    std::string name;
-   std::cout<<"Введите ваше имя"; //Ввод имени пользователя с клавиатуры
+   std::cout<<"Введите ваше имя"; //Enter username
    std::cin>>name;
-   std::cout<<"Hello world "<<name<<endl; //Вывод Hello world с именем пользователя
+   std::cout<<"Hello world "<<name<<endl; //Output Hello world with the username
    return 0;
 }
