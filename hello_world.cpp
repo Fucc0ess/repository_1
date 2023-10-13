@@ -1,4 +1,4 @@
-#include <iostream>
+include <iostream>
 int main(){
    std::string name;
    std::cout<<"Введите ваше имя"; //Ввод имени пользователя с клавиатуры
